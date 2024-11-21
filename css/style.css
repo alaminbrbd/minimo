@@ -1,0 +1,265 @@
+/*common css start*/
+body{
+    margin:0;
+    font-family:"Playfair", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262;
+}
+/*common css end*/
+/*header start*/
+header{
+    padding: 30px 0;
+    border-bottom: 1px solid;
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid navy;*/
+}
+.logo{
+    margin-top: 10px;
+    float: left;
+    width: 13%;
+    /*border: 1px solid navy;*/
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    float: right;
+width: 65%;
+/*border: 1px solid navy;*/
+}
+.menu ul {
+    float: right;
+}
+
+.menu ul li{
+    float: left;
+list-style: none; 
+    
+}
+.menu ul li a {
+display: block;
+margin: 0 50px;
+color:#626262;    
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+   
+}
+.b_img img{
+    width: 100%;
+}
+
+/*banner end*/
+.perfect{
+    margin:100px 0 100px;
+
+}
+.container2{
+margin:0 auto;
+width:80%;
+/*border:1px solid red;*/
+overflow: hidden;
+}
+.p_content{
+    
+
+}
+.c_light{
+    margin:0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+    margin: 15px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_p{
+    margin:0;
+    line-height: 24px;
+}
+.c_link{
+   margin-top: 40px ;
+   display:block;
+   text-decoration: none;
+   text-transform: uppercase;
+   color:#626262; 
+}
+
+/*blog start*/
+.blog{
+padding: 60px 0;
+}
+.single{
+    width:47%;
+    /*border: 1px solid;*/
+    float: left;
+    padding-bottom: 50px;
+    
+}
+.single:nth-child(even){
+    margin-left: 6%;
+    
+}
+.single img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.single h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin: 20px 0;
+    
+}
+.single p:last-child{
+    color: #626262;
+    line-height: 1.5;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+  background-color: #f0f0f0; 
+  padding: 70px 0; 
+}
+.signup{
+text-align: center;    
+}
+.s h1{
+    color:#333333 ;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    /*border: 2px solid red;*/
+    margin: 0 auto;
+   
+}
+.s_form input{
+font-family: "Playfair Display";
+font: size 14px;
+color:#626262;
+width: 345px;
+height: 45px;
+border: none;
+border-bottom: 1px solid #626262;
+background: transparent;
+padding-left: 5px;
+padding-right:45px;
+
+}
+.s_input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    top:15px;
+    right:0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{}
+
+/*newsletter end*/
+/*blog2 start*/
+.blog2{
+    padding: 90px 0;
+}
+/*blog2 end*/
+/*button start*/
+.btn{}
+.container3{text-align: center;}
+.container3 button{
+    padding:30px 70px;
+    font-size: 24px;
+    border: none;
+    border: 1px solid #626262;
+    background:transparent;
+    transition:.5s;
+}
+.container3 button:hover{
+    color:white;
+    background-color: #626262;
+    border: 1px solid#ffffff;
+}
+/*button start*/
+
+/*footer start
+.footer{
+    padding: 20px 0;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    height: 120px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-nav ul li {
+    display: inline;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+    border-bottom: 2px solid#626262;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social-icons a img {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Slight zoom on hover */
+} footer end */

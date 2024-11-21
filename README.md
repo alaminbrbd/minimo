@@ -1,2 +1,2 @@
 # minimo
-link url: 
+link url: https://alaminbrbd.github.io/minimo/
